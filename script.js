@@ -17,9 +17,9 @@ console.log(myfunction(arr));
 
 function newFunc(a, b) {
   let i = a + b;
-  if (i >= 50 || i <= 80) {
+  if (i >= 50 && i <= 80) {
     console.log("65");
-    
+
   } else {
     console.log("80");
   }
@@ -86,7 +86,7 @@ function getCurrentDate(){
       const today = new Date();
 
       const dd = String(today.getDate()).padStart(2, '0');
-      const mm = String(today.getMonth()).padStart(2, '0');
+      const mm = String(today.getMonth() + 1).padStart(2, '0');
       const yy = today.getFullYear();
 
       console.log(`${mm}-${dd}-${yy}`);
@@ -95,8 +95,6 @@ function getCurrentDate(){
       console.log(`${dd}/${mm}/${yy}`);
 }
 getCurrentDate();
-
-
 
 
 
