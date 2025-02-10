@@ -119,6 +119,28 @@
 // }
 // console.log(myfunction(arr));
 
+//  input = [1,4,6,2,8,4,9,2,3,4,6,7,6,9,0] output =[0,1,2,3,4,6,7,8,9]
+// let array = [1, 4, 6, 2, 8, 4, 9, 2, 3, 4, 6, 7, 6, 9, 0];
+// function filter(arr) {
+//   let newArr = [...new Set(arr)];
+//   for (let i = 0; i < newArr.length; i++) {
+//     for (let j = 0; j < newArr.length - i - 1; j++) {
+//       if (newArr[j] < newArr[j + 1]) {
+//         let temp = newArr[j];
+//         newArr[j] = newArr[j + 1];
+//         newArr[j + 1] = temp;
+//       }
+//     }
+//   }
+//   return newArr;
+// } 
+// console.log(filter(array));
+
+// let arrayy = [1, 4, 6, 2, 8, 4, 9, 2, 3, 4, 6, 7, 6, 9, 0]
+// function filter(arr){
+//   let 
+// }
+
 // Question-2
 // function newFunc() {
 //   let n = 5;
@@ -143,9 +165,18 @@
 //   console.log(pattern);
 // }
 // calculate(5);
-
-
- 
+// or 
+// function printTriangle(rows) {
+//   for (let i = 1; i <= rows; i++) {
+//     let stars = '';
+//     for (let j = 1; j <= i; j++) {
+//       stars += ' *';
+//       let sp = " "
+//     }
+//     console.log(stars);
+//   }
+// }
+// printTriangle(5);
 
 // Question-2
 // function newFuncc() {
@@ -159,19 +190,19 @@
 // newFuncc();
 
 
-function calculate(number){
-  pattern = ' ';
-  for (let i = 1; i <= number; i++) {
-    for (let j = 0; j < i; j++) {
-      pattern += " *"
-    }
-    pattern += "\n";
-  }
-  console.log(pattern);
-}
-calculate(5);
-
-
+// function printEquilateralTriangle(rows) {
+//   for (let i = 1; i <= rows; i++) {
+//     let line = '';
+//     for (let j = 1; j <= rows - i; j++) {
+//       line += ' ';
+//     }
+//     for (let k = 1; k <= 2 * i - 1; k++) {
+//       line += '*';
+//     }
+//     console.log(line);
+//   }
+// }
+// printEquilateralTriangle(5);
 // Question-3
 
 // function newFunc() {
@@ -189,21 +220,35 @@ calculate(5);
 // }
 // newFunc();
 
-function calculate(number){
-  pattern = ' ';
-  for (let i = 1; i <= number; i++) {
-    for (let j = 0; j < i; j++) {
-      pattern += " *"
-    }
-    pattern += " \n";
-  }
-  console.log(pattern);
-}
-calculate(5);
+
+// function printDiamond(rows) {
+//   for (let i = 1; i <= rows; i++) {
+//     let line = '';
+//     for (let j = 1; j <= rows - i; j++) {
+//       line += ' ';
+//     }
+//     for (let k = 1; k <= 2 * i - 1; k++) {
+//       line += '*';
+//     }
+//     console.log(line);
+//   }
+
+//   for (let i = rows - 1; i >= 1; i--) {
+//     let line = '';
+//     for (let j = 1; j <= rows - i; j++) {
+//       line += ' ';
+//     }
+//     for (let k = 1; k <= 2 * i - 1; k++) {
+//       line += '*';
+//     }
+//     console.log(line);
+//   }
+// }
+
+// printDiamond(5);
 
 
 // Question-4
-
 
 // function newFunc() {
 //   let n = 5;
@@ -222,17 +267,20 @@ calculate(5);
 
 
 
+// Question-6
 
-  // Question-6
-
-  // function newFunc() {
-  //   let n = 5;
-  //   for (let i = 0; i < n; i++) {
-  //     let str = "* ";
-  //     let sp=" "
-  //     console.log(sp.repeat(n-i) + str.repeat(n));
-  //   }
-  // }
-  // newFunc();
+// function newFunc() {
+//   let n = 5;
+//   for (let i = 0; i < n; i++) {
+//     let str = "* ";
+//     let sp=" "
+//     console.log(sp.repeat(n-i) + str.repeat(n));
+//   }
+// }
+// newFunc();
 
 
+
+
+
+  
